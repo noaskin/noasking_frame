@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>noasking_frame</artifactId>
+        <groupId>com.noasking</groupId>
+        <version>${project.version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>noasking_common_web</artifactId>
+
+    <dependencies>
+        <dependency>
+            <artifactId>noasking_mapper</artifactId>
+            <groupId>com.noasking</groupId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>noasking_page</artifactId>
+            <groupId>com.noasking</groupId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>

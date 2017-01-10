@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.noasking.scheduler.task.mapper.TaskFireLogMapper" >
+  <resultMap id="BaseResultMap" type="com.noasking.scheduler.task.model.TaskFireLog" >
+    <id column="id_" property="id" jdbcType="INTEGER" />
+    <result column="group_name" property="groupName" jdbcType="VARCHAR" />
+    <result column="task_name" property="taskName" jdbcType="VARCHAR" />
+    <result column="start_time" property="startTime" jdbcType="TIMESTAMP" />
+    <result column="end_time" property="endTime" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="server_host" property="serverHost" jdbcType="VARCHAR" />
+    <result column="server_duid" property="serverDuid" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

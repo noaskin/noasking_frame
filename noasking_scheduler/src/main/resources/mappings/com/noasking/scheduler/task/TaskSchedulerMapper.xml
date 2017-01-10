@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.noasking.scheduler.task.mapper.TaskSchedulerMapper" >
+  <resultMap id="BaseResultMap" type="com.noasking.scheduler.task.model.TaskScheduler" >
+    <id column="id_" property="id" jdbcType="INTEGER" />
+    <result column="group_id" property="groupId" jdbcType="INTEGER" />
+    <result column="task_name" property="taskName" jdbcType="VARCHAR" />
+    <result column="task_type" property="taskType" jdbcType="VARCHAR" />
+    <result column="task_desc" property="taskDesc" jdbcType="VARCHAR" />
+    <result column="task_cron" property="taskCron" jdbcType="VARCHAR" />
+    <result column="task_previous_fire_time" property="taskPreviousFireTime" jdbcType="TIMESTAMP" />
+    <result column="task_next_fire_time" property="taskNextFireTime" jdbcType="TIMESTAMP" />
+    <result column="contact_email" property="contactEmail" jdbcType="VARCHAR" />
+    <result column="enable_" property="enable" jdbcType="BIT" />
+    <result column="create_by" property="createBy" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_by" property="updateBy" jdbcType="INTEGER" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>
